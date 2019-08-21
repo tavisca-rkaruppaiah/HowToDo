@@ -1,0 +1,15 @@
+dotnet build -p:Configuration=release -v:q
+dotnet test
+dotnet publish -o Publish
+zip -r Files.zip HelloWorld/Publish
+Files.zip
+
+CD
+
+Ragu - HelloWorld
+
+Artifacts to copy	Files.zip
+unzip Files.zip
+dotnet HelloWorld/Publish/HelloWorld.dll
+
+azhank 25+10 bus ticket ruppes bal

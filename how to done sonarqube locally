@@ -1,0 +1,17 @@
+download sonarqube
+extract zip file
+goto windows 64 bit
+goto bin folder
+run sonar-start.bat file
+after sonar run
+
+goto browser type localhost:9000
+
+create new project and key
+
+downloade .netcore2.0
+
+extract 
+and goto 
+
+changes .exe file to .dll

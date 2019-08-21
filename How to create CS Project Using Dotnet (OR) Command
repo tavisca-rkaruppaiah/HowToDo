@@ -1,0 +1,12 @@
+How to create CS Project Using Dotnet (OR) Command Prompt
+
+dotnet new sln --name CommandProject
+
+dotnet new console --name CommandProblem
+dotnet sln CommandProject.sln add CommandProblem/CommandProblem.csproj
+dotnet new xunit --name XUnitTestForAddition
+dotnet sln CommandProject.sln add XUnitTestForAddition/XUnitTestForAddition.csproj
+>dotnet add HelloWorld/HelloWorld.csproj reference XUnitTestForHelloWorld/XUnitTestForHelloWorld.csproj
+dotnet build
+dotnet run
+dotnet test

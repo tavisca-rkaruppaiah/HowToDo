@@ -1,0 +1,5 @@
+first create dockerfile
+
+build command : docker build -t ragucontainer .
+
+docker run with manual port number : docker run -p 1234:80 -it --rm --name ragufirst ragucontainer

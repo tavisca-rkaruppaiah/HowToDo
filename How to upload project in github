@@ -1,0 +1,11 @@
+echo "#Ragu-WebApi">> README.md
+git init
+git add README.md
+git commit -m "added by ragu"
+ git remote add origin https://github.com/tavisca-rkaruppaiah/Ragu-WebApi.git
+ git push -u origin master
+git branch continous-integration
+ git branch -d continous-integration
+git checkout continuous-integration
+ls
+git show-branch
